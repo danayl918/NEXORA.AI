@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+:root {
+  --bg-main: #212121;
+  --bg-sidebar: #171717;
+  --bg-surface: #2F2F2F;
+  --bg-surface-hover: #383838;
+  --bg-input: #303030;
+  --accent-green: #10A37F;
+  --accent-hover: #1A7F64;
+  --text-primary: #FFFFFF;
+  --text-secondary: #ACACAC;
+  --text-muted: #8E8E8E;
+  --border-color: #424242;
+  --border-subtle: #333333;
+}
+
+[data-theme="light"] {
+  --bg-main: #FFFFFF;
+  --bg-sidebar: #F9F9F9;
+  --bg-surface: #F4F4F4;
+  --bg-surface-hover: #ECECEC;
+  --bg-input: #F4F4F4;
+  --accent-green: #10A37F;
+  --accent-hover: #1A7F64;
+  --text-primary: #0D0D0D;
+  --text-secondary: #5D5D5D;
+  --text-muted: #8E8E8E;
+  --border-color: #E2E2E2;
+  --border-subtle: #EFEFEF;
+}
+
+body {
+  margin: 0;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code, pre {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3A3A3A;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
+
+/* ChatGPT-inspired utility helper classes */
+.bg-app-main {
+  background-color: var(--bg-main);
+}
+
+.bg-app-sidebar {
+  background-color: var(--bg-sidebar);
+}
+
+.bg-app-surface {
+  background-color: var(--bg-surface);
+}
+
+.bg-app-input {
+  background-color: var(--bg-input);
+}
+
+.text-app-primary {
+  color: var(--text-primary);
+}
+
+.text-app-secondary {
+  color: var(--text-secondary);
+}
+
+.text-app-muted {
+  color: var(--text-muted);
+}
+
+.border-app {
+  border-color: var(--border-color);
+}
+
+.border-app-subtle {
+  border-color: var(--border-subtle);
+}
+
+.bg-accent-green {
+  background-color: var(--accent-green);
+}
+
+.bg-accent-green:hover {
+  background-color: var(--accent-hover);
+}
+
+.text-accent-green {
+  color: var(--accent-green);
+}
+
+.border-accent-green {
+  border-color: var(--accent-green);
+}

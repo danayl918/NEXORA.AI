@@ -1,0 +1,7 @@
+{
+  "name": "NEXORA AI — Intelligent AI Workspace",
+  "description": "Professional, ChatGPT-inspired AI workspace powered by Gemini with integrated document analysis, coding assistant, and task management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
